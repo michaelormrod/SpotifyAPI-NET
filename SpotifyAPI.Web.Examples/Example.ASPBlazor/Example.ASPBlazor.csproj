@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SpotifyAPI.Web\SpotifyAPI.Web.csproj" />
+    <ProjectReference Include="..\..\SpotifyAPI.Web\SpotifyAPI.Web.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
-
+  <ItemGroup>
+    <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
 </Project>
